@@ -13,22 +13,20 @@
 </div>
 
 
-### Caracteristicas
+### Características
 
 - Guarda tu nombre de usuario y contraseña de Moodle usando `chrome.storage`.
 - Autocompleta las credenciales guardadas en la página de inicio de sesión de Moodle.
-- Feedback visuales para el guardado exitoso de credenciales.
+- Feedback visual para el guardado exitoso de credenciales.
 
 ### Instalación
 
 1. Clone o descargue este repositorio en su máquina local.
-   Si no tenes git instalado, podes hacer click en "codigo" y "Descargar ZIP". Este ZIP necesita ser descomprimido para poder instalar la extensión.
+Si no tenés git instalado, podés hacer click en "código" y "Descargar ZIP". Este ZIP necesita ser descomprimido para poder instalar la extensión.
 ```bash
 git clone https://github.com/GermanHeim/UNS-Moodle-AutoLogin
 ```
-
-
-2. Abri Google Chrome y entrá a [chrome://extensions/](chrome://extensions/) (O su defencto en otro navegador basado en Chromium)
+2. Abrí Google Chrome y entra a [chrome://extensions/](chrome://extensions/) (O su defecto en otro navegador basado en Chromium)
 3. Habilite el "Modo desarrollador" usando el switch en la esquina superior derecha.
 4. Haga clic en el botón "Cargar desempaquetado" ("Load Unpacked") y seleccione la carpeta que contiene la extensión.
 5. El icono de la extensión debería aparecer en la barra de herramientas de tu navegador.
@@ -39,8 +37,9 @@ git clone https://github.com/GermanHeim/UNS-Moodle-AutoLogin
 3. Luego de esto, la extensión debería funcionar automáticamente al ingresar a la página de [inicio de sesión de Moodle](https://moodle.uns.edu.ar/moodle).
 
 ### Disclaimer y consideraciones de seguridad
-**Almacenamiento de contraseñas:** tenga cuidado al almacenar contraseñas, incluso de manera segura. El almacenamiento de información confidencial en chrome.storage aún puede presentar riesgos. 
+- **Almacenamiento de contraseñas:** tenga cuidado al almacenar contraseñas, incluso de manera segura. El almacenamiento de información confidencial en chrome.storage aún puede presentar riesgos. 
 Actualmente, no existen soluciones de inicio de sesión único (SSO) proporcionadas por la universidad, por lo cual no pueden considerarse alternativas.
+- Esta extensión está creada para uso educativo y personal. Úselo con responsabilidad y priorice siempre la seguridad y la privacidad. El desarrollador de esta extensión no son responsables de ningún uso indebido o brechas de seguridad.
 
 ### Contribuciones y bugs
 Las contribuciones y comentarios son bienvenidos. Si se encuentra algún problema o existen sugerencias para mejorar, abrí un issue en el repo.
