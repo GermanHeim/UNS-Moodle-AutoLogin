@@ -9,7 +9,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://moodle.uns.edu.ar/moodle/*"],
+      "matches": ["*://moodle.uns.edu.ar/moodle/"],
       "js": ["content.js"]
     }
   ],
